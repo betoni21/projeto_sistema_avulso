@@ -1,0 +1,13 @@
+{
+    "name": "Sistema Avulso Digital",
+    "description": "---",
+    "authors": [
+        {
+            "name": "Lucas Martins Betoni",
+            "email": "lucasbetoni21@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.35"
+    }
+}
