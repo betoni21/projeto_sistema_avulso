@@ -30,7 +30,7 @@ header("location: index.php"); // Redirecting To Home Page
                             <input type="text" title="Preencha o campo E-mail" required name=email id="email" class="form-control" placeholder="E-mail" />
                         </div>
                         <div>
-                            <input type="text" title="Preencha o campo Telefone" name=telefone id="telefone" class="form-control" placeholder="Telefone / Celular" pattern="[0-9]{2}[0-9]{9}"
+                            <input type="text" title="Preencha o campo Telefone" name=telefone id="telefone" class="form-control" placeholder="Telefone / Celular" //pattern="[0-9]{2}[0-9]{9}"
                             required>
                         </div>
                         <div class="botao">

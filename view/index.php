@@ -7,7 +7,7 @@ header("location: principal.php"); // Redirecting To Profile Page
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login Form in PHP with Session</title>
+<title>Login session</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
