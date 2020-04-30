@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 21-Abr-2020 às 22:20
+-- Generation Time: 30-Abr-2020 às 23:16
 -- Versão do servidor: 5.7.21
 -- PHP Version: 5.6.35
 
@@ -21,6 +21,27 @@ SET time_zone = "+00:00";
 --
 -- Database: `avulso`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `login`
+--
+
+DROP TABLE IF EXISTS `login`;
+CREATE TABLE IF NOT EXISTS `login` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `password` varchar(255) CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `login`
+--
+
+INSERT INTO `login` (`id`, `username`, `password`) VALUES
+(1, 'esmam', '##esmam');
 
 -- --------------------------------------------------------
 
