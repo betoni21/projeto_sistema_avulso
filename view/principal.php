@@ -33,7 +33,7 @@ header("location: index.php"); // Redirecting To Home Page
                             <input type="text" title="Preencha o campo E-mail" required name=email id="email" class="form-control" placeholder="E-mail" />
                         </div>
                         <div>
-                            <input type="text" title="Preencha o campo Telefone" required name=telefone id="telefone" class="form-control" placeholder="Telefone / Celular" maxlength="15" onkeypress="mascara(this)" pattern="\(\d{2}\)s\s*\d{5}-\d{4}">
+                            <input type="text" title="Preencha o campo Telefone" required name=telefone id="telefone" class="form-control" placeholder="Telefone / Celular" maxlength="15" onkeypress="mascara(this)" pattern="\(\d{2}\)\s*\d{5}-\d{4}">
                         </div>
                         <div class="botao">
                             <button class="btn btn-primary" type="submit" style="width: 100%" onclick="return validar()">REGISTRAR</button>
