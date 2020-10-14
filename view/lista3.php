@@ -23,7 +23,7 @@ $linha = mysql_fetch_assoc($dados);
 // calcula quantos dados retornaram
 $total = mysql_num_rows($dados);
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE HTML>
 <html>
 <head>
   <title>Lista Geral</title>
@@ -33,23 +33,13 @@ $total = mysql_num_rows($dados);
 body {
   font: 75%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
 }
-tr:hover {
-  background-color:#3d80df;
-  color: #fff;
-}
-thead tr:hover {
-  background-color: transparent;
-  color: inherit;
-}
+
 th {
   min-width: 250px;
 }
 
 tr {
   height: 30px; 
-}
-td {
-  border:1px solid;
 }
 tbody{
   display: none;

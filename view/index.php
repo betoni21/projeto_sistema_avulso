@@ -8,6 +8,7 @@ header("location: principal.php"); // Redirecting To Profile Page
 <html>
 <head>
 <title>Login session</title>
+<link rel="icon" href="images/logo_esmam.jpg" /><!--Inseri um icone no titulo da pagina "aba"-->
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>

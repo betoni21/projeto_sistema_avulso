@@ -15,7 +15,7 @@ function validar(){
     }
     if(telefone==""){
         alert( "Preencha o campo telefone" );
-        forms.email.focus();
+        forms.telefone.focus();
         return false;
     }
     return true;
